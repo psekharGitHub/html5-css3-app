@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Inline vs Blocklevel </title>
+    <style> 
+        div {
+            background-color: cornflowerblue;
+            width: 100px;
+            height: 100px;
+            padding: 15px;
+
+            display: inline;
+        }
+
+        span {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h2> This is about Inline and Block level elements</h2> <br><br><br>
+    <div>
+        This is div
+    </div> <br> <br> <br>
+    <span> This is span </span>
+    <span> This is another span </span>
+
+    <div>
+        <h1> This is visible </h1>
+        <h1 style="display"> This is hidden </h1>
+        <p> 
+            Notice that h1 element  with display : none doesn't take any space
+        </p>
+    </div>
+</body>
+</html>

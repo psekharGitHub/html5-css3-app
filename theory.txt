@@ -71,3 +71,33 @@ CSS can be added to HTML documents in many ways :
 -Note: Inline has higher preference to Internal
        personalized class is identified using '.' before the name
        existing element are used without the '.'
+
+BLE - Block Level elements
+------------------------------
+- Occupies entire space of the parent
+- always starts on new line and takes up full width available
+
+e.g.  h1-h6, table, p, div, form, video, hr, header, footer
+
+IE - Inline element
+--------------------------------------------
+- It does'nt start on new line
+- takes only necessary Space
+- cannot contain a block level element
+
+e.g. span, a, button, sup, sub, textarea, label, b, string, img
+
+Video Files
+-----------------------------
+attributes:
+
+contols - adds controls to video
+autoplay - plays automatically on page loading
+muted - mutes the video
+
+CSS3 
+-------------------------
+- brings superior styling to HTML
+- multiple device comptibility
+- follows global web standards
+- easy maintainance
