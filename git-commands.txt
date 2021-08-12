@@ -5,13 +5,15 @@ git config --global user.email purnendusekhar44@gmail.com
 -----------------------------------------------------------
 
 git init : To initiate the repository
-git remote add origin "https://github.com/psekharGitHub/html5-css3-app.git"
+git remote add origin "https://github.com/psekharGitHub/html5-css3-app.git" - Connect your local repository to remote repository
 git status : To check the status of the files to se is they are created/ modified
 git diff : to see the changes made to the files
-git add filename : To add files to the local git repository
+git add filename : To add single file to the local git repository
 git add . : To add multiple files to local git repository
 git commit -am "added new file to repository" : This will commit all changes
-git push origin master : push the files to github
+git push origin master : push the changes to remote repository
+git pull origin master : pull the changes from remote repository
+
 
 Steps:
 -------------
