@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> HTML Form </title>
+</head>
+<body>
+    <form>
+        First Name: <input type="text" name="Firstname" value="Jane" size="10" required> <br>
+        Last Name: <input type="text" name="Lastname" value="Doe"> <br>
+        password: <input type="password"> <br>
+        Comments: <textarea rows="5" cols="50"> Hello </textarea> <br> <br>
+        
+        <!-- name="subject" allows checking only one option -->
+        Subject : <input type="radio" name="subject"> Maths
+                  <input type="radio" name="subject"> Physics
+                  <input type="radio" name="subject"> Chemistry <br> <br>
+
+        Role : <input type="checkbox" name="admin"> Admin
+               <input type="checkbox" name="admin"> HOD
+               <input type="checkbox" name="admin"> Professor <br> <br>
+        
+        Sex <br> 
+        Male <input type="radio" name="subject"> Female <input type="radio" name="subject">
+        <br> <br>
+
+        Select country
+        <select>
+            <option value="1"> India </option>
+            <option value="2"> England </option>
+            <option value="3"> Japan </option>
+        </select> <br>
+
+        Choose interests
+        <select multiple> 
+            <option value="1"> Painting </option>
+            <option value="2"> Dancing </option>
+            <option value="3"> Singing </option>
+        </select> <br> <br>
+        
+        Upload your image <input type="file" name="upload">
+        <br> <br>
+        <button type="button"> Register Button </button>
+        <button type="submit"> Submit Button</button>
+        <button type="submit"> Reset Button </button> <br> <br>
+        
+        <!-- Image acts as a button -->
+        <input type="image" name="imagebutton" src="../IMAGES/clipart145221.png" width="50px">
+    </form>
+</body>
+</html>

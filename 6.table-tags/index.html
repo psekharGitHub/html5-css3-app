@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Table </title>
+    <style>
+        table, tr, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 15px;
+        }
+
+        th {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table> 
+        <thead>
+            <tr>
+                <th> Id </th>
+                <th> Name </th>
+                <th> Email </th>
+                <th> City </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> 1 </td>
+                <td> Scott </td>
+                <td> Scot@em.com </td>
+                <td> Sydney </td>
+            </tr>
+
+            <tr>
+                <td> 2 </td>
+                <td> Adam </td>
+                <td> Adam@msn.com </td>
+                <td> Seoul </td>
+            </tr>
+
+            <tr>
+                <td> 3 </td>
+                <td> Michelle </td>
+                <td> Michelle@yah.com </td>
+                <td> Amsterdam </td>
+            </tr>
+        </tbody>
+    </table> <br>
+
+    <table> 
+        <thead> 
+            <th> Name </th>
+            <th colspan="2"> Telephone </th>
+        </thead>
+        <tbody> 
+            <tr> 
+                <td> Bill Gates </td>
+                <td> 123456 </td>
+                <td> 789643 </td>
+            </tr>
+        </tbody>
+    </table> <br>
+
+    <table> 
+        <thead> 
+            <th> Name </th>
+            <th rowspan="2"> Telephone </th>
+        </thead>
+        <tbody> 
+            <tr> 
+                <td> Elon Musk </td>
+                <td> 198765 </td>
+                <td> 654321 </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

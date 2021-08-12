@@ -46,7 +46,7 @@ List Tags - <ul type=""> - unordered list type attributes can have "A", "a", "i"
           - <ol> - ordered list
           - <li>
 
-Table Tags - Table, Thread, Tbody, Th, Tr, Tbody
+Table Tags - table, thead, tbody, th, tr, tbody
 
 Form Tags - Form, Input(textbox, radio, checkbox), textarea, select(radio)
 
