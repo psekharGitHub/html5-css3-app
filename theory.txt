@@ -1,0 +1,73 @@
+HTML - HYPER TEXT MARKUP LANGUAGE
+
+-used to create web pages
+-widely used on web
+-It is just a markup LANGUAGE and not a programming LANGUAGE
+HYPER TEXT - Text with in Text
+           - Way to link two or more pages
+           - create a link to move to new webpages
+
+Features
+-----------------
+1. Simple and easy to used
+2.Platform Independent (Windows, Mac, Linux)
+3. Case insensitive
+4. write all tags in lower case for better readability
+
+Building blocks of HTML
+--------------------------
+Tags - Surrounds the content and apply meaning to it. Write using < and >
+Attributes - Provides extra information about the elements
+
+<h1 class="header" id="headId" > Hello World </h1>
+
+class and id are called attributes.
+wrap attributes always in double quotes
+
+Heading Tags - <h1>,<h2>,<h3>,<h4>,<h5>,<h6>
+             - <b> / <strong> - bold
+             - <i> / <cite> / <em>- italics
+             - <u> / <ins> - underline
+             - <del>, <code>, <small>
+             - <sub> - subscript
+             - <sup> - superscript
+             - <q> - for quotation
+             - <br> - line break
+
+Meta Tags - DOCTYPE, title, link, style
+
+Text Tags - <p>, <h1>,<h2>,<h3>,<h4>,<h5>,<h6>, <strong>
+
+Link Tag - <a href="" target="_blank"> - anchor tag. Helps to navigate to other pages
+
+Image Tag - <image>
+
+List Tags - <ul type=""> - unordered list type attributes can have "A", "a", "i", "1"
+          - <ol> - ordered list
+          - <li>
+
+Table Tags - Table, Thread, Tbody, Th, Tr, Tbody
+
+Form Tags - Form, Input(textbox, radio, checkbox), textarea, select(radio)
+
+Script Tag - <script>
+
+Space Tags - &nbsp;
+
+HTML class
+-------------
+CSS - Cascadin Style Sheets
+
+Why to use - To format the layout of the webpages
+
+What we can do - With CSS, we can control format, size, style of the text
+               - control element size, position, background images
+
+CSS can be added to HTML documents in many ways : 
+
+-Inline - by using "style attribute" inside HTML element
+-Internal - bys using style element in <head> section
+-External - using link element to link link external CSS
+-Note: Inline has higher preference to Internal
+       personalized class is identified using '.' before the name
+       existing element are used without the '.'
