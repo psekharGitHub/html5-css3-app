@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title> Adjacent Selector </title>
+   <style>
+       /* children are affected, not descendents */
+       div+p {
+           background-color: yellow;
+       }
+   </style>
+</head>
+<body>
+    <div>
+        <p> Paragraph 1 in the div </p>     
+        <p> Paragraph 2 in the div </p>
+        <section>
+            <p>
+                Paragraph 3 in the div
+            </p>
+        </section>
+    </div>
+    <p> Paragraph 4 not in div</p>
+    <p> Paragraph 5 not in div</p>   
+</body>
+</html>
