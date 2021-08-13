@@ -101,3 +101,27 @@ CSS3
 - multiple device comptibility
 - follows global web standards
 - easy maintainance
+
+
+Combinator Selectors
+---------------------------
+- which explains the relationship between Selectors
+- can contain more than one Selectors
+
+1. descendent selector (space) 
+e.g. <style>
+       div p { 
+
+       }
+       </style>
+
+2. child selector (>)
+e.g. <style>
+       div>p { 
+
+       }
+       </style>
+
+3. general selector (+) e.g. div + p {}
+
+4. general sibling selector (~) e.g. div ~ p {}

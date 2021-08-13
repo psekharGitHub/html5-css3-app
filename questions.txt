@@ -1,1 +1,2 @@
-How to see the hidden password using html
+1. How to see the hidden password using html
+2. How to select all siblings irrespective of their position
