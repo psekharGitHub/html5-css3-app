@@ -22,3 +22,8 @@ git add .
 git status
 git commit -am "Added files to repository"
 git push origin master
+
+On getting error during pushing
+-------------------------------------------------
+git push -f master
+git pull origin master --allow-unrelated-histories
