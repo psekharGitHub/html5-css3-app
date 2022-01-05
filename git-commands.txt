@@ -27,3 +27,4 @@ On getting error during pushing
 -------------------------------------------------
 git push -f master
 git pull origin master --allow-unrelated-histories
+git push --set-upstream origin master

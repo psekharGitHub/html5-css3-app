@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: rgb(117, 159, 207);
+        }
+        .ul-items {
+            text-align: right;
+            margin: 0;
+        }
+        .item {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+        }
+        .name{
+            float: left;
+        }
+        .image-container {
+            position: relative;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: flex-end;
+            margin: 0;
+            height: 400px;
+            background: url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+            background-color: royalblue;
+        }
+        .img{
+            position:relative;
+            bottom: 328px;
+            left: 55px;
+            width: 425px;
+            height: 500px;
+            border: 2px solid black;
+        }
+        .bio-text{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar-container">
+        <nav class="navbar" id="navbar">
+            <ul class="ul-items">
+                <p class="name">Purnendu Sekhar Saha, M.Tech</p>
+                <li class="item" id="item1">About me</li>
+                <li class="item" id="item2">Publications</li>
+                <li class="item" id="item3">Research blog</li>
+                <li class="item" id="item4">Contacts</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="image-container" id="img">
+        <div class="name-tag">
+            <h1 class="nameTag" style="margin-top: 0;">Purnendu Sekhar Saha, MTech</h1>
+            <p class="specialization">Software Engineering</p>
+        </div>     
+    </div>
+    <!-- <div class="profile-container" style="height: 0;">
+        <img src="./images/dp.jpg" alt="profile-pic.jpg" class="img">
+    </div> -->
+    <div class="bio" id="bio">
+        <p class="bio-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid quos nam
+            non commodi quasi, accusamus nemo, repudiandae dolores, magnam nobis blanditiis
+            eiciendis est sapiente culpa. Odit architecto fuga rem hic.
+        </p>
+    </div>
+</body>
+</html>
